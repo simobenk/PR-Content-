@@ -1,0 +1,20 @@
+# Core app dependencies
+streamlit>=1.30.0
+python-pptx
+pillow
+openai
+pandas>=2.2.3
+spacy
+python-dotenv
+
+# spaCy French model dependency
+fr-core-news-md @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.7.0/fr_core_news_md-3.7.0.tar.gz
+
+# Streamlit extras
+streamlit-extras
+
+# Optional but useful for downloading ZIP files
+zipfile36
+
+# If you want to ensure compatibility with fonts
+fonttools
